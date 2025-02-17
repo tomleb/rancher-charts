@@ -20427,6 +20427,26 @@ entries:
     urls:
     - assets/rancher-wins-upgrader/rancher-wins-upgrader-0.0.100.tgz
     version: 0.0.100
+  remotedialer-proxy:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/hidden: "true"
+      catalog.cattle.io/kube-version: < 1.32.0-0
+      catalog.cattle.io/managed: "true"
+      catalog.cattle.io/namespace: cattle-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux,windows
+      catalog.cattle.io/rancher-version: '>= 2.11.0-0 < 2.12.0-0'
+      catalog.cattle.io/release-name: rancher-webhook
+    apiVersion: v2
+    appVersion: 105.0.0
+    created: "2025-02-17T15:57:34.724150426-05:00"
+    description: Stuff
+    digest: 0a8d77cf5c795f7d67322a4ef706c90c8e14b12ba1580e3e43ef6b5a6cc7d500
+    name: remotedialer-proxy
+    urls:
+    - assets/remotedialer-proxy/remotedialer-proxy-105.0.0.tgz
+    version: 105.0.0
   sriov:
   - annotations:
       catalog.cattle.io/auto-install: sriov-crd=match
