@@ -20437,12 +20437,12 @@ entries:
       catalog.cattle.io/os: linux
       catalog.cattle.io/permits-os: linux,windows
       catalog.cattle.io/rancher-version: '>= 2.11.0-0 < 2.12.0-0'
-      catalog.cattle.io/release-name: rancher-webhook
+      catalog.cattle.io/release-name: remotedialer-proxy
     apiVersion: v2
     appVersion: 105.0.0
-    created: "2025-02-17T15:57:34.724150426-05:00"
+    created: "2025-02-17T16:13:41.727532812-05:00"
     description: Stuff
-    digest: 0a8d77cf5c795f7d67322a4ef706c90c8e14b12ba1580e3e43ef6b5a6cc7d500
+    digest: 2a27daeee710fbb6da42d4a503cc61cf0421177b8dfaf98172c8eadb4c0d147c
     name: remotedialer-proxy
     urls:
     - assets/remotedialer-proxy/remotedialer-proxy-105.0.0.tgz

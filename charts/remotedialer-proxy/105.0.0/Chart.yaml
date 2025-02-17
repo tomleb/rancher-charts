@@ -7,7 +7,7 @@ annotations:
   catalog.cattle.io/os: linux
   catalog.cattle.io/permits-os: linux,windows
   catalog.cattle.io/rancher-version: '>= 2.11.0-0 < 2.12.0-0'
-  catalog.cattle.io/release-name: rancher-webhook
+  catalog.cattle.io/release-name: remotedialer-proxy
 apiVersion: v2
 appVersion: 105.0.0
 description: Stuff
