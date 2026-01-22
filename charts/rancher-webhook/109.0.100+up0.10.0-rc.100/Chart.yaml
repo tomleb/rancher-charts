@@ -9,7 +9,7 @@ annotations:
   catalog.cattle.io/rancher-version: '>= 2.13.0-0 < 2.14.0-0'
   catalog.cattle.io/release-name: rancher-webhook
 apiVersion: v2
-appVersion: 0.10.0-rc.99
+appVersion: 0.10.0-rc.100
 description: ValidatingAdmissionWebhook for Rancher types
 name: rancher-webhook
-version: 109.0.99+up0.10.0-rc.99
+version: 109.0.100+up0.10.0-rc.100
