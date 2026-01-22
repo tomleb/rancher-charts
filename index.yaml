@@ -37668,6 +37668,25 @@ entries:
       catalog.cattle.io/rancher-version: '>= 2.13.0-0 < 2.14.0-0'
       catalog.cattle.io/release-name: rancher-webhook
     apiVersion: v2
+    appVersion: 0.10.0-rc.99
+    created: "2026-01-22T12:14:44.090942198-05:00"
+    description: ValidatingAdmissionWebhook for Rancher types
+    digest: 6d7c20c62d6c5053b8c02f0a5c9d64769f43598d1d188710b71cefc4d8ef7111
+    name: rancher-webhook
+    urls:
+    - assets/rancher-webhook/rancher-webhook-109.0.99+up0.10.0-rc.99.tgz
+    version: 109.0.99+up0.10.0-rc.99
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/hidden: "true"
+      catalog.cattle.io/kube-version: < 1.34.0-0
+      catalog.cattle.io/managed: "true"
+      catalog.cattle.io/namespace: cattle-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux,windows
+      catalog.cattle.io/rancher-version: '>= 2.13.0-0 < 2.14.0-0'
+      catalog.cattle.io/release-name: rancher-webhook
+    apiVersion: v2
     appVersion: 0.10.0-rc.9
     created: "2026-01-20T18:42:53.306389882Z"
     description: ValidatingAdmissionWebhook for Rancher types
